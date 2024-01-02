@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>EventMaangement07</display-name>
+  <welcome-file-list>
+    <welcome-file>Eventcategories.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>addtocart</display-name>
+    <servlet-name>addtocart</servlet-name>
+    <servlet-class>com.sagar.controller.addtocart</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addtocart</servlet-name>
+    <url-pattern>/addtocart</url-pattern>
+  </servlet-mapping>
+</web-app>
